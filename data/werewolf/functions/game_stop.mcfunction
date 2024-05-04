@@ -7,4 +7,4 @@ title @a title "ゲーム停止"
 scoreboard players set #game_enabled settings 0
 
 #関数を実行
-function werewolf:reset
+function werewolf:game_reset

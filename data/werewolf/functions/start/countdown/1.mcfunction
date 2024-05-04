@@ -6,4 +6,4 @@ title @a times 10 70 20
 title @a title "1"
 
 # スケジュールを設定
-schedule function werewolf:start 1s append
+schedule function werewolf:game_start 1s append

@@ -15,4 +15,4 @@ execute if entity @a[tag=thief] run tellraw @a [{"text":"◆ "},{"text":"怪盗"
 scoreboard players set #game_enabled settings 0
 
 # リセット
-function werewolf:reset
+function werewolf:game_reset

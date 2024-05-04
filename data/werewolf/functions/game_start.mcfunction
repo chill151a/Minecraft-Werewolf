@@ -7,5 +7,5 @@ execute as @a at @s run playsound entity.generic.explode master @s ~ ~ ~ 1 1.2
 scoreboard players set #game_enabled settings 1
 
 #関数を実行
-function werewolf:reset
+function werewolf:game_reset
 function werewolf:start/main

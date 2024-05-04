@@ -12,7 +12,7 @@ title @a title {"text":"夜時間","color":"blue"}
 title @a subtitle [{"text":"◆ ","color":"blue"},{"score":{"objective":"settings","name":"#days"}},{"text":"日目 ◆"}]
 
 # 関数を実行
-schedule function werewolf:system/day_cycle/decrease_night_time 1s
+schedule function werewolf:system/day_cycle/night_time/remove_score 1s
 
 # 時間を設定
 time set midnight

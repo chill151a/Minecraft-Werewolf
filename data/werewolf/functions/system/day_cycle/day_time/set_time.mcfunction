@@ -15,7 +15,7 @@ execute if score #days settings matches 1.. run title @a title {"text":"昼時�
 execute if score #days settings matches 1.. run title @a subtitle [{"text":"◆ ","color":"yellow"},{"score":{"objective":"settings","name":"#days"}},{"text":"日目 ◆"}]
 
 #関数を実行
-schedule function werewolf:system/day_cycle/decrease_day_time 1s
+schedule function werewolf:system/day_cycle/day_time/remove_score 1s
 
 #時間を設定
 time set day

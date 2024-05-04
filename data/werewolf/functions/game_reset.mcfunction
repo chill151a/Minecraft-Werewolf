@@ -20,8 +20,8 @@ bossbar remove day_time
 bossbar remove night_time
 
 #スケジュールをクリア
-schedule clear werewolf:system/day_cycle/decrease_day_time
-schedule clear werewolf:system/day_cycle/decrease_night_time
+schedule clear werewolf:system/day_cycle/day_time/remove_score
+schedule clear werewolf:system/day_cycle/night_time/remove_score
 
 #属性を設定
 execute as @a run attribute @s generic.armor base set 0

@@ -139,4 +139,4 @@ execute as @a run attribute @s generic.armor base set 15
 execute as @a run attribute @s generic.attack_speed base set 4.25
 
 #関数を実行
-function werewolf:system/day_cycle/start_day_time
+function werewolf:system/day_cycle/day_time/set_time

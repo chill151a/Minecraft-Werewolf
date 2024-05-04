@@ -3,7 +3,7 @@ execute if score #game_enabled settings matches 1 run function werewolf:system/s
 execute if score #game_enabled settings matches 1 run function werewolf:system/arrow_trail
 execute if score #game_enabled settings matches 1 run function werewolf:system/dead_to_spectator
 execute if score #game_enabled settings matches 1 run function werewolf:system/set_inventory
-execute if score #game_enabled settings matches 1 run function werewolf:system/day_cycle/update_bossbar
+execute if score #game_enabled settings matches 1 run function werewolf:system/day_cycle/main
 execute if score #game_enabled settings matches 1 run function werewolf:items/silence_clock/main
 execute if score #game_enabled settings matches 1 run function werewolf:items/magic_snowball/main
 execute if score #game_enabled settings matches 1 run function werewolf:items/amulets/main

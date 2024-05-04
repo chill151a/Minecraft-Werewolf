@@ -1,7 +1,7 @@
 ## ロード時の処理
 
 #通知を送信
-tellraw @a "マイクラ人狼 ver.1.1.0 Beta をロードしました"
+tellraw @a "マイクラ人狼 ver.1.0.0 Beta をロードしました"
 
 #効果音を再生
 execute as @a at @s run playsound entity.experience_orb.pickup master @s ~ ~ ~ 1 1
@@ -23,6 +23,7 @@ scoreboard objectives add silence_clock_duration dummy "静寂の時計の持続
 scoreboard objectives add smoke_launcher used:crossbow "スモークランチャー"
 scoreboard objectives add magic_snowball used:snowball "魔法の雪玉"
 scoreboard objectives add predation_amulet playerKillCount "捕食のアミュレット"
+scoreboard objectives add sniper_bullet dummy "スナイパーの弾丸"
 scoreboard objectives add snipe_mode dummy "狙撃モード"
 scoreboard objectives add right_click_cooldown dummy "右クリックのクールダウン"
 
